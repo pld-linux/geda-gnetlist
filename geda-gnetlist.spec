@@ -12,13 +12,13 @@ BuildRequires:	libgeda-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-gEDA netlist generator
+gEDA netlist generator.
 
 %description -l pl
-Generator plikow opisujacych siec polaczen dla projektu gEDA
+Generator plików opisuj±cych sieæ po³±czeñ dla projektu gEDA.
 
 %prep
-%setup  -q 
+%setup -q
 
 %build
 %configure
@@ -40,4 +40,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/gEDA/scheme/*
 %{_datadir}/gEDA/system-gnetlistrc
 %{_mandir}/man*/*
-       
