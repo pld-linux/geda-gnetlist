@@ -8,7 +8,10 @@ Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	1e33f3a3bcac190bf209af58c31ccf93
 URL:		http://www.geda.seul.org/
-BuildRequires:	libgeda-devel
+BuildRequires:	libgeda-devel >= %{version}
+BuildRequires:	pkgconfig
+Requires:	geda-symbols >= %{version}
+Requires:	libgeda >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
