@@ -1,12 +1,12 @@
 Summary:	Utilites for gEDA project - netlist generator
 Summary(pl):	Narzêdzia dla projektu gEDA - generator po³±czeñ
 Name:		geda-gnetlist
-Version:	20040111
-Release:	0.1
+Version:	20050313
+Release:	1
 License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	9bbeb64aea9455468d5aef16685a03de
+# Source0-md5:	0d7f0c0feecdbbc1eb8d4ba174551051
 URL:		http://www.geda.seul.org/
 BuildRequires:	libgeda-devel >= %{version}
 BuildRequires:	pkgconfig
