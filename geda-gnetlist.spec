@@ -1,5 +1,5 @@
 Summary:	Utilites for gEDA project - netlist generator
-Summary(pl):	Narzêdzia dla projektu gEDA - generator po³±czeñ
+Summary(pl.UTF-8):   NarzÄ™dzia dla projektu gEDA - generator poÅ‚Ä…czeÅ„
 Name:		geda-gnetlist
 Version:	20061020
 Release:	0.1
@@ -20,10 +20,10 @@ Gnetlist generates netlists from schematics drawn with gschem (the
 gEDA schematic editor). It supports many output formats including
 native, Tango, Spice, Allegro, PCB, Verilog...
 
-%description -l pl
-Gnetlist generuje pliki opisuj±ce sieæ po³±czeñ miêdzy elementami
-schematu narysowanego w edytorze gschem (z projektu gEDA). Obs³uguje
-wiele formatów wyj¶ciowych, w tym natywny, Tango, Spice, Allegro, PCB,
+%description -l pl.UTF-8
+Gnetlist generuje pliki opisujÄ…ce sieÄ‡ poÅ‚Ä…czeÅ„ miÄ™dzy elementami
+schematu narysowanego w edytorze gschem (z projektu gEDA). ObsÅ‚uguje
+wiele formatÃ³w wyjÅ›ciowych, w tym natywny, Tango, Spice, Allegro, PCB,
 Verilog...
 
 %prep
