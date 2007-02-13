@@ -1,5 +1,5 @@
 Summary:	Utilites for gEDA project - netlist generator
-Summary(pl.UTF-8):   Narzędzia dla projektu gEDA - generator połączeń
+Summary(pl.UTF-8):	Narzędzia dla projektu gEDA - generator połączeń
 Name:		geda-gnetlist
 Version:	20061020
 Release:	0.1
